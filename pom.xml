@@ -4,6 +4,8 @@
   <artifactId>seleinummavenproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
+
+
   	<dependency>
   		<groupId>o2technologies</groupId>
   		<artifactId>o2technologies</artifactId>

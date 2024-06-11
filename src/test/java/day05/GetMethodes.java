@@ -35,11 +35,10 @@ public class GetMethodes {
 	   // getWindowHandles()   -- returns id's of the multiple  webpages opend on browser
 	   driver.findElement(By.xpath("//a[@target='_blank']")).click();
 	   Set<String> Ids = driver.getWindowHandles();  // returns set of opened page id's [ id1,id2,id3,...]
-	   System.out.println(Ids);   
-	   
+	   System.out.println(Ids);    
 	   
 	    
-	    driver.quit();
+	   // driver.quit();
 	}
 
 }

@@ -18,7 +18,8 @@ public class BrowserMethods {
 		  driver.quit();// closes all pages opened under browser.
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-			
+		 
+			 
 	}
 
 }
